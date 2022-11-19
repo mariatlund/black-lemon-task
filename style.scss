@@ -6,5 +6,11 @@
 
 :root {
   // set up variables for fonts & colours
+  --font: "Poppins", sans-serif;
   --bg_colour: white;
+}
+
+html {
+  font-size: 1em;
+  font-family: var(--font);
 }
