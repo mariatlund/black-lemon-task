@@ -49,7 +49,43 @@ img {
 
 // NAVIGATION
 
+nav {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem;
+
+  .nav-left,
+  .nav-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    align-content: center;
+  }
+}
+
 // PRODUCT SECTION
+
+.breadcrumb {
+  p {
+    margin: 0;
+  }
+
+  display: grid;
+  grid-template-columns: repeat(4, auto) 2fr;
+  margin-inline: 1rem;
+  align-items: center;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+
+  .current-page {
+    font-weight: 400;
+    color: var(--font_colour);
+  }
+}
 
 // ACCORDION ELEMENT
 
