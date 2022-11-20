@@ -6,7 +6,6 @@
 .pnp.js
 /.parcel-cache
 /dist
-/assets
 
 # testing
 /coverage
