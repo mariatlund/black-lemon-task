@@ -228,6 +228,7 @@ nav {
     text-transform: capitalize;
     display: flex;
     justify-content: space-between;
+    margin-inline: 0;
   }
 
   .accordion-item {
@@ -236,13 +237,21 @@ nav {
     border-color: var(--font_colour);
     border-inline: none;
     border-top: none;
-    padding-bottom: 1rem;
-    margin: 1rem;
+    margin: 1.5rem;
   }
 
   .accordion-item:nth-of-type(3) {
     border: none;
   }
+
+  p {
+    margin-bottom: 1.5rem;
+    margin-inline: 0;
+  }
+}
+
+.hidden {
+  display: none;
 }
 
 // CAROUSEL ELEMENT
