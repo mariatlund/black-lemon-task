@@ -39,6 +39,10 @@ h3 {
   font-size: 0.85rem;
 }
 
+h4 {
+  font-size: 0.85rem;
+}
+
 h2,
 h3,
 h4,
@@ -110,7 +114,6 @@ nav {
   background-color: var(--light_grey);
   padding-top: 4.5rem;
   padding-bottom: 2rem;
-
   display: grid;
 
   img {
@@ -220,4 +223,56 @@ nav {
 
 // ACCORDION ELEMENT
 
+.accordion {
+  h2 {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .accordion-item {
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--font_colour);
+    border-inline: none;
+    border-top: none;
+    padding-bottom: 1rem;
+    margin: 1rem;
+  }
+
+  .accordion-item:nth-of-type(3) {
+    border: none;
+  }
+}
+
 // CAROUSEL ELEMENT
+
+.carousel {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  column-gap: 1.5rem;
+  padding-inline: 1.5rem;
+  padding-bottom: 1rem;
+  width: min-content;
+
+  .carousel-card {
+    grid-row: 2;
+  }
+
+  h2 {
+    grid-row: 1;
+    text-align: center;
+  }
+  h3 {
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+
+  p {
+    font-weight: 400;
+  }
+}

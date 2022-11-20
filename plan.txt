@@ -2,8 +2,10 @@
 2. Set up basic HTML structure ☑️
 3. Download & add images, icons, fonts, etc. ☑️
 4. Set up SCSS structure (component sections, generalised styles, etc.) + variables ☑️
-5. Style grid & flex sections (start mobile first)
-6. More styling
-7. Media queries
-8. Carousel & accordion functionality (JS needed?)
-9. Animation when adding to basket
+5. Begin styling mobile first - navigation ☑️
+6. Style product section ☑️
+7. Style accordion section ☑️
+8. Style carousel section ☑️
+9. Carousel & accordion functionality (JS needed?)
+10. Media queries
+11. Animation when adding to basket
